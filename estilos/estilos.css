@@ -1,3 +1,7 @@
+:root {
+    --cor-box-shadow: #808080
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -18,7 +22,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--cor-box-shadow));
 }
 
 p {
@@ -50,7 +54,7 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--cor-box-shadow);
 }
 
 footer {
