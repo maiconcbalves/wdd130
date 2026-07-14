@@ -1,3 +1,9 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cor-box-shadow: #808080
 }
@@ -17,12 +23,21 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px var(--cor-box-shadow));
+    box-shadow: 0 0 30px var(--cor-box-shadow);
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px var(--cor-box-shadow);
 }
 
 p {
@@ -35,12 +50,8 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #000;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -49,17 +60,25 @@ aside img {
 
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px var(--cor-box-shadow);
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 60px;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+
+}
+
+/* Seletores de Classe */
+.caixa {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 
 }
