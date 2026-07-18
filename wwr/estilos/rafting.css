@@ -1,12 +1,8 @@
 :root {
     --cor-primaria: #055a05;
     /* verde-floresta */
-    --cor-secundaria: #f4a261;
-    /* bege médio */
     --cor-destaque1: #264653;
     /* azul-escuro acinzentado */
-    --cor-destaque2: #e9c46a;
-    /* amarelo-claro dourado */
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -44,12 +40,16 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 
 .hero {
     position: relative;
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero img {
