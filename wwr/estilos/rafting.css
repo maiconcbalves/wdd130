@@ -40,7 +40,11 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
+nav a {
+    text-decoration: none;
+}
+
+footer a {
     text-decoration: none;
 }
 
