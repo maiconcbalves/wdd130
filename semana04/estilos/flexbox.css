@@ -1,32 +1,36 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    margin: 1rem;
+
 }
 
 .flex-container {
-    border: 3px dashed darkcyan;
-    background-color: lightyellow;
+    border: 10px dashed darkcyan;
+    background-color: lightseagreen;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
 }
 
 .flex-item {
     width: 250px;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 20%);
+    border: 1px solid rgba(217, 32, 32, 0.2);
     padding: 0.5rem;
-    background-color: #bbb;
-    color: #333;
+    background-color: #a9f182;
+    color: #333333;
 }
 
 .item1 {
     min-height: 100px;
+
 }
 
 .item2 {
     min-height: 200px;
+
 }
 
 .item3 {
     min-height: 300px;
+
 }
